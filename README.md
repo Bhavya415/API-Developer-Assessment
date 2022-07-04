@@ -38,17 +38,28 @@ class Trade(BaseModel):
     
  API created
  1)Listing trades
+ 
  2)Single trade
+ 
  3)Searching trades
+ 
    ->counterparty
+   
    ->instrumentId
+   
    ->instrumentName
+   
    ->instrumentName
+   
  4)Advanced filtering
  
  Parameter	Description
+ 
 assetClass-->Asset class of the trade.
+
 maxPrice-->The maximum value for the tradeDetails.price field.
-minPrice-->The minimum value for the tradeDetails.price field.
+
+minPrice-->The minimum value for the tradeDetails.price field
+.
 tradeType-->The tradeDetails.buySellIndicator is a BUY or SELL
     
